@@ -2,6 +2,12 @@
 
 MiyoHUD is a compact [Windower 4](https://www.windower.net/) HUD for Final Fantasy XI. It combines target information, monster details, and character point progress in one draggable overlay.
 
+## Project Background
+
+MiyoHUD started as a personal project to simplify my Final Fantasy XI interface by consolidating functionality from several existing Windower Lua addons into a single tool. Rather than running multiple independent HUDs, I combined and adapted existing Lua functionality to display the information I wanted in one place.
+
+The project involved integrating target information, character progression tracking, and monster database lookups into a consistent interface, then troubleshooting and refining the combined addon. Along the way, I've worked with Lua, Windower libraries, packet data, SQLite, and UI customization.
+
 ## Features
 
 - Displays the selected target's hex ID and distance.
@@ -52,6 +58,12 @@ The overlay can also be dragged with the mouse. Its position is saved automatica
 - Monster details are matched by monster name and current zone. If `database.db` is missing or cannot be opened, the rest of the HUD continues to work.
 - The HUD is hidden while zoning and when no character is logged in.
 - MiyoHUD currently targets English resource and database names.
+
+## Acknowledgments
+
+MiyoHUD consolidates and adapts functionality from existing Windower Lua addons. Credit belongs to the original developers whose work contributed to or inspired the project.
+
+*Specific addon names, authors, and any required license notices will be added after verifying the original sources and applicable licenses.*
 
 ## Author
 
