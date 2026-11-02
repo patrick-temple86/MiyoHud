@@ -55,4 +55,4 @@ The overlay can also be dragged with the mouse. Its position is saved automatica
 
 ## Author
 
-Created by [k0de-0x16](https://github.com/k0de-0x16).
+Created by [Patrick Temple](https://github.com/patrick-temple86).
